@@ -1,0 +1,180 @@
+body {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  color: #fff;
+  box-sizing: content-box;
+  
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+p, li {
+    font-size: 1.2em;
+}
+
+header {
+    display: inline-block;
+    width: inherit;
+}
+nav{
+  background-color: #e84a5f;
+  position: fixed;
+  width: inherit;
+  top: 0;
+  
+}
+
+nav h1 {
+    margin: 10px 20px;    
+    
+    display: inline-block;
+     
+}
+
+nav ul{
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+  
+}
+nav li{
+  float: left;
+  display: inline-block;
+    
+}
+
+nav a{
+  padding: 16px 24px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+nav a:hover{
+  color: #e84a5f;
+  background-color: #fff;
+  
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+main {
+    margin-top: 160px;
+}
+
+/* *[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -260px; // Set the Appropriate Height
+  height: 260px; // Set the Appropriate Height
+  visibility: hidden; 
+}
+ */
+section {
+  border: 2px solid #ff847c;
+  border-radius: 10px;
+  margin: 4em auto;
+  
+ }
+
+section > h2 {
+  font-size: 2.5em;
+  margin: 10px 20px;
+  color: #e84a5f;
+}
+
+section .color {
+    text-align: center;
+}
+
+.color div {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 20px 20px;
+  min-height: 150px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  border-radius: 100%;
+  
+}
+
+.primary {
+    background-color: #99b898;
+    
+}
+.secondary1 {
+    background-color: #feceab;
+}
+.secondary2 {
+    background-color: #ff847c;
+}
+.secondary3 {
+    background-color: #e84a5f;
+}
+
+.font div {
+    display: inline-block;
+    width: 40%;
+    margin: 20px 40px;;
+}
+
+.text > div {
+    margin: 1em 40px;
+    padding: 10px;
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.lato {
+    font-family: 'Lato';
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.font .primary, .text .primary {
+    padding-left: 20px;
+}
+
+.text h1, .text h2, .text h3, .text p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+li {
+    padding: 8px;
+}
